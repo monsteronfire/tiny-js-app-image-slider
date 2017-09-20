@@ -3,24 +3,33 @@ body {
 }
 
 h1 {
-  margin-left: 395px;
   color: black;
   font-weight: bold;
+  text-align: center;
 }
 
 .wrapper {
   position: relative;
   max-width: 1000px;
+  margin: 0 auto;
 }
 
 .slide {
   width: 100%;
 }
 
+.slide img {
+  width: 958px;
+  height: 578px;
+}
+
 .btn1,
 .btn2 {
   position: absolute;
   top: 45%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 30px;
 }
 
 .btn1 {
