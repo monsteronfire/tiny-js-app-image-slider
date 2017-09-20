@@ -1,3 +1,32 @@
 body {
   background-color: pink;
 }
+
+h1 {
+  margin-left: 395px;
+  color: black;
+  font-weight: bold;
+}
+
+.wrapper {
+  position: relative;
+  max-width: 1000px;
+}
+
+.slide {
+  width: 100%;
+}
+
+.btn1,
+.btn2 {
+  position: absolute;
+  top: 45%;
+}
+
+.btn1 {
+  left: 0;
+}
+
+.btn2 {
+  right: 0;
+}
