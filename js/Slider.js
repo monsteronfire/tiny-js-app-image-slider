@@ -41,7 +41,11 @@
     return new Slider.init(wrapper, btnL, btnR);
   };
 
-  Slider.prototype = {};
+  Slider.prototype = {
+    test: function () {
+      return 'yolo';
+    }
+  };
 
   Slider.init = function(wrapper, btnL, btnR) {
     var self = this;

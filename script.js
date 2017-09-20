@@ -1,1 +1,3 @@
-var slider = $S('#wrapper', '#btn1', '#btn2', 1);
+var slider = $S();
+//slider.test();
+console.log(slider);
