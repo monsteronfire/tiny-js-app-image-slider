@@ -30,6 +30,7 @@ h1 {
   padding: 10px;
   background-color: white;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .btn1 {
