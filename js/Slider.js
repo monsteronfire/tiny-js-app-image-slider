@@ -42,7 +42,7 @@
   };
 
   Slider.prototype = {
-    test: function () {
+    plusDivs: function () {
       return 'yolo';
     }
   };
